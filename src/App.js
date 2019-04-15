@@ -15,19 +15,19 @@ class App extends Component {
           <p className='maintext'>EVENTS</p>
         </div>
         <div className='box3'>
-          <div className='box3-1 L1 centering'><p>研究発表</p></div>
-          <div className='box3-1 R1 centering'><p>小冊子</p></div>
-          <div className='box3-1 L1 centering'><p>コンテスト</p></div>
-          <div className='box3-1 R1 centering'><p>クイズ</p></div>
+          <div className='box3-1 L1 centering'><div className='centering'><p>研究発表</p></div></div>
+          <div className='box3-1 R1 centering'><div className='centering'><p>小冊子</p></div></div>
+          <div className='box3-1 L1 centering'><div className='centering'><p>コンテスト</p></div></div>
+          <div id='quiz' className='box3-1 R1 centering'><div className='centering'><p>クイズ</p></div></div>
         </div>
         <div className='box2 centering '>
           <p className='maintext'>EXHIBITIONS</p>
         </div>
         <div className='box3'>
 
-          <div className='box3-1 L1 centering'><p>大ボード</p></div>
-          <div className='box3-1 R1 centering'><p>モジュール</p></div>
-          <div className='box3-1 L1 centering'><p>HO</p></div>
+          <div id='daibo' className='box3-1 L1 centering'><div className='centering'><p>大ボード</p></div></div>
+          <div className='box3-1 R1 centering'><div className='centering'><p>モジュール</p></div></div>
+          <div className='box3-1 L1 centering'><div className='centering'><p>HOボード</p></div></div>
         </div>
       </>
     )
