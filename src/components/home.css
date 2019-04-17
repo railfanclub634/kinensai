@@ -1,0 +1,111 @@
+#daibo {
+  background-image: url('../images/daibo1.jpg');
+}
+
+#quiz {
+  background-image: url('../images/quiz.jpg');
+}
+
+#booklet {
+  background-image: url('../images/booklet.jpg');
+}
+
+#module {
+  background-image: url('../images/module.jpg');
+}
+
+.box1 .maintext {
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+}
+
+.box1 .subtext {
+  letter-spacing: 0.1rem;
+}
+
+.box1 {
+  color: rgb(255, 255, 255);
+  height: 90vh;
+  background-image: url('../images/img3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+  animation: fade 50s linear 0s forwards;
+}
+
+@-webkit-keyframes fade {
+    0% { background-position: bottom right; }
+    100% { background-position: bottom left; }
+}
+@keyframes fade {
+    0% { background-position: bottom right; }
+    100% { background-position: bottom left; }
+}
+
+.box2 {
+  height: 20vh;
+}
+
+.box3 {
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 0;
+}
+
+.after-scroll {
+
+}
+
+.box3-1 {
+  color: rgba(255, 255, 255,0);
+  height: 20vh; 
+  width: calc(50% - 0.1rem);
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 0.2rem;
+}
+
+.box3-1 p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.after-scroll .box3-1 {
+    /* transition-duration: 1s; */
+    color: rgba(255, 255, 255,1);
+}
+
+.box3-1:hover {
+    color: rgba(255, 255, 255,0);
+}
+
+.box3-1 div {
+    transition-duration: 1s;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(28, 90, 170, 0);
+}
+
+.after-scroll .box3-1 div {
+    transition-duration: 1s;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(28, 90, 170, 0.356);
+}
+
+.box3-1 div:hover {
+    background-color: rgba(28, 90, 170, 0);
+}
+
+.L1 {
+    margin-right: 0.1rem;
+}
+
+.R1 {
+    margin-left: 0.1rem;
+}
+
+.box3-2 {
+    width: 100%;
+    height: 40vh; 
+}
