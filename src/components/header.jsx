@@ -1,4 +1,5 @@
 import React from 'react'
+import { withRouter } from 'react-router-dom'
 import './header.css'
 class Header extends React.Component {
 
@@ -12,12 +13,14 @@ class Header extends React.Component {
     menuClicked = () => {
         this.setState({ menu: !this.state.menu })
     }
-    // このコンポーネントの中にメニュー作るんだぞわかったな？？？？？？
+    handletoHome = () => {
+        this.props.history.push('/')
+    }
     render() {
         return (
             <>
                 <div className='header'>
-                    <div className='header-text maintext'><p>97th Annivfest</p></div>
+                    <div onClick={this.handletoHome} className='header-text maintext'><p>97th Annivfest</p></div>
                     <div className={this.state.menu ? 'menu-button open' : 'menu-button'} onClick={this.menuClicked}>
                         <div className='top'></div>
                         <div className='center'></div>
@@ -32,4 +35,4 @@ class Header extends React.Component {
     }
 }
 
-export default Header
+export default withRouter(Header)
