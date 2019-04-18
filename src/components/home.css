@@ -49,11 +49,19 @@
 .box3 {
   display: flex;
   flex-wrap: wrap;
+  /* opacity: 0; */
+}
+
+.box1-1 {
+  position: relative;
+  top: 5vh;
+  transition-duration: 1s;
   opacity: 0;
 }
 
-.after-scroll {
-
+.afterdisplay {
+  top: 0vh;
+  opacity: 1;
 }
 
 .box3-1 {
