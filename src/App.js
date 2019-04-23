@@ -1,23 +1,17 @@
 import React, { Component } from 'react'
-import { Route, withRouter } from 'react-router-dom'
-import './App.css'
-import Header from './components/header'
-import Home from './components/home'
+import './comingsoon.css'
 
 class App extends Component {
 
   render() {
     return (
       <>
-        <Header />
-        <Route exact path='/' component={Home} />
-        {/* <Route exact path='/kenkyu' component={Kenkyu} /> */}
-        <div className='footer'>
-          <p>©2019 武蔵高等学校中学校鉄道研究部</p>
-        </div>
+        <p id='a'>97th Annivfest</p>
+        <p id='b'>COMING<br />SOON</p>
+        <p id='c'>第97回武蔵高等学校中学校鉄道研究部の記念祭ホームページです。<br />公開までしばらくお待ちください。</p>
       </>
     )
   }
 }
 
-export default withRouter(App)
+export default App

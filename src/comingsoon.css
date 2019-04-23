@@ -1,0 +1,51 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+     background-position: bottom left;
+    background-image: url('./images/comingsoon.jpg');
+    color: white;
+}
+
+
+@media screen and (orientation: landscape) {
+    p {
+        margin: 40px;
+    }
+
+    #a {
+       font-size: 5vh;
+    }
+
+    #b {
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        font-size: 12vh;
+        font-weight: 400;
+    }
+
+    #c {
+        font-size: 2vh;
+    }
+}
+@media screen and (orientation: portrait) {  
+    p {
+        margin: 10px;
+    }
+
+    #a {
+       font-size: 8vw;
+    }
+
+    #b {
+        margin-top: 22vh;
+        margin-bottom: 22vh;
+        font-size: 20vw;
+        font-weight: 400;
+    }
+
+    #c {
+        font-size: 3vw;
+    }
+}
