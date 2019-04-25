@@ -1,12 +1,18 @@
+#kenkyu {
+  background-image: url('../images/kenkyu.png');
+}
+
 #daibo {
   background-image: url('../images/daibo1.jpg');
 }
 
 #quiz {
+  background-position: top 50% center;
   background-image: url('../images/quiz.jpg');
 }
 
 #booklet {
+  background-position: top 30% center;
   background-image: url('../images/booklet.jpg');
 }
 
@@ -66,7 +72,7 @@
 
 .box3-1 {
   color: rgba(255, 255, 255,0);
-  height: 20vh; 
+  height: 35vw; 
   width: calc(50% - 0.1rem);
   background-size: cover;
   background-position: center center;

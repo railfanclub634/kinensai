@@ -1,5 +1,6 @@
 import React from 'react'
 import { withRouter } from 'react-router-dom'
+// import Header from '../components/header'
 import './home.css'
 
 class Home extends React.Component {
@@ -13,7 +14,7 @@ class Home extends React.Component {
 
     componentDidMount() {
         window.onscroll = () => {
-            var scrolled = document.documentElement.scrollTop / window.innerHeight
+            var scrolled = window.scrollY / window.innerHeight
             if (scrolled <= 0.5) {
                 this.setState({ phase1: true })
             } else {
@@ -49,13 +50,14 @@ class Home extends React.Component {
     handletoModule = () => {
         this.props.history.push('/module')
     }
-    handletoHoboard = () => {
-        this.props.history.push('/hoboard')
-    }
+    // handletoHoboard = () => {
+    //     this.props.history.push('/hoboard')
+    // }
 
     render() {
         return (
             <>
+                {/* <Header /> */}
                 <div className='box1 centering '>
                     <p className='maintext'>New wows</p>
                     <p className='subtext'>あなたを「ワッ」と言わせるもの</p>
@@ -65,7 +67,7 @@ class Home extends React.Component {
                         <p className='maintext'>EVENTS</p>
                     </div>
                     <div className={this.state.phase1 ? 'box3' : 'box3 after-scroll'}>
-                        <div onClick={this.handletoKenkyu} className='box3-1 L1 centering'><div className='centering'><p>研究発表</p></div></div>
+                        <div onClick={this.handletoKenkyu} id='kenkyu' className='box3-1 L1 centering'><div className='centering'><p>研究発表</p></div></div>
                         <div onClick={this.handletoBooklet} id='booklet' className='box3-1 R1 centering'><div className='centering'><p>小冊子</p></div></div>
                         <div onClick={this.handletoQuiz} id='quiz' className='box3-1 L1 centering'><div className='centering'><p>クイズ</p></div></div>
                         <div onClick={this.handletoContest} className='box3-1 R1 centering'><div className='centering'><p>コンテスト</p></div></div>
@@ -78,7 +80,7 @@ class Home extends React.Component {
                     <div className={this.state.phase2 ? 'box3' : 'box3 after-scroll'}>
                         <div onClick={this.handletoBigboard} id='daibo' className='box3-1 L1 centering'><div className='centering'><p>大ボード</p></div></div>
                         <div onClick={this.handletoModule} id='module' className='box3-1 R1 centering'><div className='centering'><p>モジュール</p></div></div>
-                        <div onClick={this.handletoHoboard} className='box3-1 L1 centering'><div className='centering'><p>HOボード</p></div></div>
+                        {/* <div onClick={this.handletoHoboard} className='box3-1 L1 centering'><div className='centering'><p>HOボード</p></div></div> */}
                     </div>
                 </div>
                 <div className={this.state.phase3 ? 'box1-1' : 'box1-1 afterdisplay'}>
