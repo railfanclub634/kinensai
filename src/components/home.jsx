@@ -67,7 +67,7 @@ class Home extends React.Component {
                         <div onClick={this.handletoKenkyu} id='kenkyu' className='box3-1 L1 centering'><div className='centering'><p>研究発表</p></div></div>
                         <div onClick={this.handletoBooklet} id='booklet' className='box3-1 R1 L2 centering'><div className='centering'><p>小冊子</p></div></div>
                         <div onClick={this.handletoQuiz} id='quiz' className='box3-1 L1 R2 centering'><div className='centering'><p>クイズ</p></div></div>
-                        <div onClick={this.handletoContest} className='box3-1 R1 centering'><div className='centering'><p>コンテスト</p></div></div>
+                        <div onClick={this.handletoContest} className='box3-1 R1 centering'><div className='centering'><p>モジュール<br />コンテスト</p></div></div>
                     </div>
                 </div>
                 <div className={this.state.phase2 ? 'box1-1' : 'box1-1 afterdisplay'}>
