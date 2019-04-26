@@ -2,19 +2,12 @@ import React from 'react'
 import { withRouter } from 'react-router-dom'
 import './article.css'
 
-class Home extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            phase1: true,
-            phase2: true
-        }
-    }
+class Kenkyu extends React.Component {
 
     render() {
         return (
             <>
-                <div className='art-header'></div>
+                <div className='art-header header-kenkyu'></div>
                 <div className='art-title'><p>研究発表</p></div>
                 <div className='art-data'>
                     <p>
@@ -29,4 +22,4 @@ class Home extends React.Component {
     }
 }
 
-export default withRouter(Home)
+export default withRouter(Kenkyu)

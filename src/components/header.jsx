@@ -1,5 +1,5 @@
 import React from 'react'
-import { withRouter } from 'react-router-dom'
+import { withRouter, Link } from 'react-router-dom'
 import './header.css'
 class Header extends React.Component {
 
@@ -40,11 +40,12 @@ class Header extends React.Component {
                     </div>
                 </div>
                 <div className={this.state.menu ? 'menu visible' : 'menu'} >
-                    <p>研究発表</p>
-                    <p>小冊子</p>
-                    <p>クイズ</p>
-                    <p>大ボード</p>
-                    <p>モジュール</p>
+                    <p><Link to='/'>トップ</Link></p>
+                    <p><Link to='/kenkyu'>研究発表</Link></p>
+                    <p><Link to='/booklet'>小冊子</Link></p>
+                    <p><Link to='/quiz'>クイズ</Link></p>
+                    <p><Link to='/bigboard'>大ボード</Link></p>
+                    <p><Link to='/module'>モジュール</Link></p>
                 </div>
             </>
         )

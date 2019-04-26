@@ -1,21 +1,67 @@
 .art-header {
     width: 100%;
-    height: 70vw;
+    height: 80vw;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top 50px center; 
+    background-position: top 80px center;
+}
+
+.header-kenkyu {
     background-image: url('../images/kenkyu.png');
+}
+
+.header-booklet {
+    background-image: url('../images/booklet.jpg');
+}
+
+.header-module {
+    background-image: url('../images/module.jpg'); 
+}
+
+.header-bigboard {
+    background-image: url('../images/daibo1.jpg')
 }
 
 .art-title p {
     margin: 5vw;
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 
 .art-data {
+    font-size: 1.2rem;
     margin: 5vw;
+    line-height: 1.5rem;
 }
 
 .time-table {
     margin: 5vw;
+}
+
+img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (orientation: landscape) {
+    .art-header {
+        margin-right: auto;
+        margin-left: auto;
+        width: 50%;
+        height: 40vw;
+    }
+    .art-title {
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .art-title p {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .art-data {
+        margin-right: auto;
+        margin-left: auto;
+        width: 50%;
+    }
 }
