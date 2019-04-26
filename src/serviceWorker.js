@@ -132,18 +132,4 @@ export function unregister() {
       registration.unregister();
     });
   }
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker
-      .register('/serviceworker.js')
-      .then(registration => {
-        // 登録成功
-        registration.onupdatefound = function () {
-          console.log('アップデートがあります！');
-          registration.update();
-        }
-      })
-      .catch(err => {
-        // 登録失敗
-      });
-  }
 }
