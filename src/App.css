@@ -15,6 +15,10 @@
   font-weight: 100;
 }
 
+.smalltext {
+  font-size: 0.7rem;
+}
+
 .footer {
   padding-top: 10vh;
   padding-bottom: 6vh;

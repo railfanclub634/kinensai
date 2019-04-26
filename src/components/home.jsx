@@ -50,6 +50,9 @@ class Home extends React.Component {
     handletoModule = () => {
         this.props.history.push('/module')
     }
+    handletoAccess = () => {
+        window.location.href = 'https://634-annivfest.jp/acsess.html'
+    }
 
     render() {
         return (
@@ -85,7 +88,7 @@ class Home extends React.Component {
                         <p className='maintext'>ABOUT</p>
                     </div>
                     <div className={this.state.phase3 ? 'box3' : 'box3 after-scroll'}>
-                        <div id='access' className='box3-1 box3-2 centering'><div className='centering'><p>アクセス</p></div></div>
+                        <div onClick={this.handletoAccess} id='access' className='box3-1 box3-2 centering'><div className='centering'><p>アクセス</p><span className='smalltext'>第97回武蔵記念祭の公式サイトに移動します</span></div></div>
                     </div>
                 </div>
             </>
