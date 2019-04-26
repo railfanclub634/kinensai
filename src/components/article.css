@@ -19,7 +19,11 @@
 }
 
 .header-bigboard {
-    background-image: url('../images/daibo1.jpg')
+    background-image: url('../images/daibo1.jpg');
+}
+
+.header-moduleContest {
+    height: 80px;
 }
 
 .art-title p {

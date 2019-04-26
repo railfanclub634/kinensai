@@ -85,7 +85,7 @@ class Home extends React.Component {
                         <p className='maintext'>ABOUT</p>
                     </div>
                     <div className={this.state.phase3 ? 'box3' : 'box3 after-scroll'}>
-                        <div id='daibo' className='box3-1 box3-2 centering'><div className='centering'><p>アクセス</p></div></div>
+                        <div id='access' className='box3-1 box3-2 centering'><div className='centering'><p>アクセス</p></div></div>
                     </div>
                 </div>
             </>

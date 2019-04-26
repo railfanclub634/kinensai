@@ -20,6 +20,10 @@
   background-image: url('../images/module.jpg');
 }
 
+#access {
+  background-image: url('../images/access.jpg');
+}
+
 .box1 .maintext {
   letter-spacing: 0.2rem;
   font-weight: 400;

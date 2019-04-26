@@ -4,8 +4,8 @@ import './article.css'
 
 class Module extends React.Component {
 
-    handleToContest = () => {
-        console.log('test')
+
+    handletoContest = () => {
         this.props.history.push('/contest')
     }
 
