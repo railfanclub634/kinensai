@@ -7,8 +7,8 @@ class Booklet extends React.Component {
     render() {
         return (
             <>
-                <div className='art-header header-booklet'></div>
-                <div className='art-title'><p>小冊子</p></div>
+                <div className='art-header header-quiz'></div>
+                <div className='art-title'><p>クイズ</p></div>
                 <div className='art-data'>
                     <p>
                     ご好評につき今年も鉄研クイズを開催します！
