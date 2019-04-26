@@ -44,6 +44,7 @@ class Header extends React.Component {
                     <p><Link to='/kenkyu'>研究発表</Link></p>
                     <p><Link to='/booklet'>小冊子</Link></p>
                     <p><Link to='/quiz'>クイズ</Link></p>
+                    <p><Link to='/contest'>コンテスト</Link></p>
                     <p><Link to='/bigboard'>大ボード</Link></p>
                     <p><Link to='/module'>モジュール</Link></p>
                 </div>
