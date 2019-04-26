@@ -50,9 +50,6 @@ class Home extends React.Component {
     handletoModule = () => {
         this.props.history.push('/module')
     }
-    // handletoHoboard = () => {
-    //     this.props.history.push('/hoboard')
-    // }
 
     render() {
         return (

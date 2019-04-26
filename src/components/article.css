@@ -1,8 +1,8 @@
 .art-header {
     width: 100%;
-    height: 80vw;
+    height: 100vw;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: top 80px center;
 }
 
@@ -35,6 +35,18 @@
 
 .time-table {
     margin: 5vw;
+}
+
+.link-button {
+    margin-top: 10px; 
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(94, 94, 94);
+    height: 15vw;
+    width: 100%;
+    border-radius: 10px; 
 }
 
 img {

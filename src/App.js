@@ -5,6 +5,8 @@ import Header from './components/header'
 import Home from './components/home'
 import Kenkyu from './components/kenkyu'
 import Booklet from './components/booklet'
+import Quiz from './components/quiz'
+import Contest from './components/contest'
 import Module from './components/module'
 import Bigboard from './components/bigboard'
 
@@ -15,9 +17,10 @@ class App extends Component {
       <>
         <Header />
         <Route exact path='/' component={Home} />
-        <Route path='/contest' component={Home} />
+        <Route path='/contest' component={Contest} />
         <Route path='/kenkyu' component={Kenkyu} />
         <Route path='/booklet' component={Booklet} />
+        <Route path='/quiz' component={Quiz} />
         <Route path='/module' component={Module} />
         <Route path='/bigboard' component={Bigboard} />
         <div className='footer'>

@@ -1,8 +1,8 @@
 import React from 'react'
 import { withRouter } from 'react-router-dom'
 import './article.css'
-import Daibo1 from '../images/daibo1.jpg'
-import Daibo2 from '../images/daibo1.jpg'
+import Daibo1 from '../images/daibo2.jpg'
+import Daibo2 from '../images/daibo3.jpg'
 
 class Bigboard extends React.Component {
 
