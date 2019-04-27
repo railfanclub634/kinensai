@@ -3,3 +3,4 @@
 
 # Redirect default Netlify subdomain to primary domain
 http://kind-tereshkova-12a5b8.netlify.com/* http://kinensai.634tekken.jp/:splat 301!
+/* /index.html 200
