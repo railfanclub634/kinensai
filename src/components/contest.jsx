@@ -144,9 +144,9 @@ class Contest extends React.Component {
                     </div>
 
                     <div className='module-list'>
-                        <div className='module-title'>No.2 未完成</div>
+                        <div className='module-title'>No.2 旅路の先に</div>
                         <div className='module-setumei'>
-                            完成しませんでした(土下座)
+
                         </div>
                         <img alt='module1' src={Module2} />
                         <div onClick={this.VoteTo2} className='link-button'>このモジュールに投票→</div>
@@ -171,9 +171,9 @@ class Contest extends React.Component {
                     </div>
 
                     <div className='module-list'>
-                        <div className='module-title'>No.5 </div>
+                        <div className='module-title'>No.5 とある地方の中核駅</div>
                         <div className='module-setumei'>
-
+                            地方の中核となる様な少し大きめの駅を作りました。留置線もこのモジュールにあるのでそこも見てみてください。
                         </div>
                         <img alt='module1' src={Module5} />
                         <div onClick={this.VoteTo5} className='link-button'>このモジュールに投票→</div>
