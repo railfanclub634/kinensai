@@ -1,6 +1,6 @@
 import React from 'react'
 import { withRouter } from 'react-router-dom'
-import { Document, Page } from 'react-pdf'
+// import { Document, Page } from 'react-pdf'
 import './article.css'
 class BookletViwer extends React.Component {
 
@@ -11,12 +11,12 @@ class BookletViwer extends React.Component {
     render() {
         return (
             <>
-                <Document
+                {/* <Document
                     file="/97booklet.pdf"
                     onLoadSuccess={this.onDocumentLoadSuccess}
                 >
                     <Page pageNumber={1} width={600} />
-                </Document>
+                </Document> */}
             </>
         )
     }

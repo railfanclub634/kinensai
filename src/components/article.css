@@ -62,6 +62,18 @@ img {
     margin-bottom: 1rem;
 }
 
+.module-list {
+    background-color: #eeeeee;
+    padding: 20px; 
+    border-radius: 10px;
+    margin-top:20px;
+}
+
+.module-title {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
 @media screen and (orientation: landscape) {
     .art-header {
         margin-right: auto;
