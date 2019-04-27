@@ -15,6 +15,10 @@ import Module11 from '../images/module-11.jpg'
 
 class Contest extends React.Component {
 
+    VoteTo1 = () => {
+        fetch()
+    }
+
     render() {
         return (
             <>
