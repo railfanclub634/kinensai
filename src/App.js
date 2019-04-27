@@ -10,6 +10,7 @@ import Quiz from './components/quiz'
 import Contest from './components/contest'
 import Module from './components/module'
 import Bigboard from './components/bigboard'
+import VoteConfirm from './components/vote-confirm';
 
 class App extends Component {
 
@@ -25,6 +26,7 @@ class App extends Component {
         <Route path='/quiz' component={Quiz} />
         <Route path='/module' component={Module} />
         <Route path='/bigboard' component={Bigboard} />
+        <Route path='/vote-confirm' component={VoteConfirm} />
         <div className='footer'>
           <p>©2019 武蔵高等学校中学校鉄道研究部</p>
         </div>

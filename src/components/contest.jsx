@@ -16,7 +16,113 @@ import Module11 from '../images/module-11.jpg'
 class Contest extends React.Component {
 
     VoteTo1 = () => {
-        fetch()
+        fetch('https://634tekken.tk/kinensai/module/1')
+            .then(function (response) {
+                return response.text();
+            })
+            .then(function (data) {
+            });
+        this.props.history.push('/vote-confirm')
+    }
+
+    VoteTo2 = () => {
+        fetch('https://634tekken.tk/kinensai/module/2')
+            .then(function (response) {
+                return response.text();
+            })
+            .then(function (data) {
+            });
+        this.props.history.push('/vote-confirm')
+    }
+
+    VoteTo3 = () => {
+        fetch('https://634tekken.tk/kinensai/module/3')
+            .then(function (response) {
+                return response.text();
+            })
+            .then(function (data) {
+            });
+        this.props.history.push('/vote-confirm')
+    }
+
+    VoteTo4 = () => {
+        fetch('https://634tekken.tk/kinensai/module/4')
+            .then(function (response) {
+                return response.text();
+            })
+            .then(function (data) {
+            });
+        this.props.history.push('/vote-confirm')
+    }
+
+    VoteTo5 = () => {
+        fetch('https://634tekken.tk/kinensai/module/5')
+            .then(function (response) {
+                return response.text();
+            })
+            .then(function (data) {
+            });
+        this.props.history.push('/vote-confirm')
+    }
+
+    VoteTo6 = () => {
+        fetch('https://634tekken.tk/kinensai/module/6')
+            .then(function (response) {
+                return response.text();
+            })
+            .then(function (data) {
+            });
+        this.props.history.push('/vote-confirm')
+    }
+
+    VoteTo7 = () => {
+        fetch('https://634tekken.tk/kinensai/module/7')
+            .then(function (response) {
+                return response.text();
+            })
+            .then(function (data) {
+            });
+        this.props.history.push('/vote-confirm')
+    }
+
+    VoteTo8 = () => {
+        fetch('https://634tekken.tk/kinensai/module/8')
+            .then(function (response) {
+                return response.text();
+            })
+            .then(function (data) {
+            });
+        this.props.history.push('/vote-confirm')
+    }
+
+    VoteTo9 = () => {
+        fetch('https://634tekken.tk/kinensai/module/9')
+            .then(function (response) {
+                return response.text();
+            })
+            .then(function (data) {
+            });
+        this.props.history.push('/vote-confirm')
+    }
+
+    VoteTo10 = () => {
+        fetch('https://634tekken.tk/kinensai/module/10')
+            .then(function (response) {
+                return response.text();
+            })
+            .then(function (data) {
+            });
+        this.props.history.push('/vote-confirm')
+    }
+
+    VoteTo11 = () => {
+        fetch('https://634tekken.tk/kinensai/module/11')
+            .then(function (response) {
+                return response.text();
+            })
+            .then(function (data) {
+            });
+        this.props.history.push('/vote-confirm')
     }
 
     render() {
