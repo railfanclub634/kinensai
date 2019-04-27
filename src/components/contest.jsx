@@ -2,6 +2,16 @@ import React from 'react'
 import { withRouter } from 'react-router-dom'
 import './article.css'
 import Module1 from '../images/module-1.jpg'
+import Module2 from '../images/module-2.jpg'
+import Module3 from '../images/module-3.jpg'
+import Module4 from '../images/module-4.jpg'
+import Module5 from '../images/module-5.jpg'
+import Module6 from '../images/module-6.jpg'
+import Module7 from '../images/module-7.jpg'
+import Module8 from '../images/module-8.jpg'
+import Module9 from '../images/module-9.jpg'
+import Module10 from '../images/module-10.jpg'
+import Module11 from '../images/module-11.jpg'
 
 class Contest extends React.Component {
 
@@ -24,15 +34,12 @@ class Contest extends React.Component {
                     </div>
 
                     <div className='module-list'>
-                        <div className='module-title'>No.1 守株</div>
+                        <div className='module-title'>No.2 未完成</div>
                         <div className='module-setumei'>
-                            宋人に田を耕す者有り。
-                            田中に株有り。兔走りて株に触れ、頸を折りて死す。
-                            因りて其の耒を釈てて株を守り、復た兔を得んことを冀ふ。
-                            兔復た得べからずして、身は宋国の笑ひと為れり。
+                            完成しませんでした(土下座)
                         </div>
-                        <img alt='module1' src={Module1} />
-                        <div onClick={this.VoteTo1} className='link-button'>このモジュールに投票→</div>
+                        <img alt='module1' src={Module2} />
+                        <div onClick={this.VoteTo2} className='link-button'>このモジュールに投票→</div>
                     </div>
 
                     <div className='module-list'>
@@ -40,8 +47,8 @@ class Contest extends React.Component {
                         <div className='module-setumei'>
                             線路のそばに立つ山と、その周りに立つ木などの自然で、山麓の風景を表しました
                         </div>
-                        <img alt='module1' src={Module1} />
-                        <div onClick={this.VoteTo1} className='link-button'>このモジュールに投票→</div>
+                        <img alt='module1' src={Module3} />
+                        <div onClick={this.VoteTo3} className='link-button'>このモジュールに投票→</div>
                     </div>
 
                     <div className='module-list'>
@@ -49,8 +56,8 @@ class Contest extends React.Component {
                         <div className='module-setumei'>
 
                         </div>
-                        <img alt='module1' src={Module1} />
-                        <div onClick={this.VoteTo1} className='link-button'>このモジュールに投票→</div>
+                        <img alt='module1' src={Module4} />
+                        <div onClick={this.VoteTo4} className='link-button'>このモジュールに投票→</div>
                     </div>
 
                     <div className='module-list'>
@@ -58,8 +65,8 @@ class Contest extends React.Component {
                         <div className='module-setumei'>
 
                         </div>
-                        <img alt='module1' src={Module1} />
-                        <div onClick={this.VoteTo1} className='link-button'>このモジュールに投票→</div>
+                        <img alt='module1' src={Module5} />
+                        <div onClick={this.VoteTo5} className='link-button'>このモジュールに投票→</div>
                     </div>
 
                     <div className='module-list'>
@@ -67,8 +74,8 @@ class Contest extends React.Component {
                         <div className='module-setumei'>
                             線路の外側が住宅地、線路の内側には田んぼがありますが、道を挟んでビルがあるなど、都会と田舎が錯綜した町です。
                         </div>
-                        <img alt='module1' src={Module1} />
-                        <div onClick={this.VoteTo1} className='link-button'>このモジュールに投票→</div>
+                        <img alt='module1' src={Module6} />
+                        <div onClick={this.VoteTo6} className='link-button'>このモジュールに投票→</div>
                     </div>
 
                     <div className='module-list'>
@@ -76,8 +83,8 @@ class Contest extends React.Component {
                         <div className='module-setumei'>
                             鉄道の高低差のある場所でよく見られる風景を再現
                         </div>
-                        <img alt='module1' src={Module1} />
-                        <div onClick={this.VoteTo1} className='link-button'>このモジュールに投票→</div>
+                        <img alt='module1' src={Module7} />
+                        <div onClick={this.VoteTo7} className='link-button'>このモジュールに投票→</div>
                     </div>
 
                     <div className='module-list'>
@@ -86,8 +93,8 @@ class Contest extends React.Component {
                             寂れた地方です。
                             もう廃墟と化している村、廃線、ただ青々と生い茂る稲があります
                         </div>
-                        <img alt='module1' src={Module1} />
-                        <div onClick={this.VoteTo1} className='link-button'>このモジュールに投票→</div>
+                        <img alt='module1' src={Module8} />
+                        <div onClick={this.VoteTo8} className='link-button'>このモジュールに投票→</div>
                     </div>
 
                     <div className='module-list'>
@@ -95,8 +102,8 @@ class Contest extends React.Component {
                         <div className='module-setumei'>
                             長い時を経て発展してきたまちをイメージして作りました。駅の雰囲気にもこだわりました。模型から歴史を感じ取れるかな…？
                         </div>
-                        <img alt='module1' src={Module1} />
-                        <div onClick={this.VoteTo1} className='link-button'>このモジュールに投票→</div>
+                        <img alt='module1' src={Module9} />
+                        <div onClick={this.VoteTo9} className='link-button'>このモジュールに投票→</div>
                     </div>
 
                     <div className='module-list'>
@@ -104,8 +111,8 @@ class Contest extends React.Component {
                         <div className='module-setumei'>
                             昭和、平成、そして令和と、時代を超えて走る路面電車。川を隔てて時の流れを表現しました
                         </div>
-                        <img alt='module1' src={Module1} />
-                        <div onClick={this.VoteTo1} className='link-button'>このモジュールに投票→</div>
+                        <img alt='module1' src={Module10} />
+                        <div onClick={this.VoteTo10} className='link-button'>このモジュールに投票→</div>
                     </div>
 
                     <div className='module-list'>
@@ -113,8 +120,8 @@ class Contest extends React.Component {
                         <div className='module-setumei'>
                             日本のどこかと言われれば正直分からないけど、こんなところありそうだなあと。
                         </div>
-                        <img alt='module1' src={Module1} />
-                        <div onClick={this.VoteTo1} className='link-button'>このモジュールに投票→</div>
+                        <img alt='module1' src={Module11} />
+                        <div onClick={this.VoteTo11} className='link-button'>このモジュールに投票→</div>
                     </div>
                 </div>
             </>
